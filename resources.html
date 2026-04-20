@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resources</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="logo">🎓 LearnersHub</div>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="courses.html">MyCourses</a>
+        <a href="resources.html">Resources</a>
+    </nav>
+</header>
+
+<section class="container">
+    <h1>Learning Resources</h1>
+
+    <div class="grid">
+
+        <div class="card">
+            <h2>📘 Notes</h2>
+            <ul>
+               <li><a href="https://www.w3schools.com/programming/" target="_blank">📘 Programming Notes</a></li>
+<li><a href="https://www.w3schools.com/java/java_oop.asp" target="_blank">📗 OOP Notes</a></li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>🎥 Video Tutorials</h2>
+            <iframe width="100%" height="200"
+                src="https://www.youtube.com/embed/8PopR3x-VMY"
+                frameborder="0" allowfullscreen>
+            </iframe>
+        </div>
+
+<!-- QUIZ SECTION -->
+    <div class="card">
+        <h2>📝 Quiz</h2>
+
+        <form id="quizForm">
+
+            <p>1. What is Encapsulation?</p>
+            <input type="radio" name="q1" value="a"> Wrapping data and methods<br>
+            <input type="radio" name="q1" value="b"> Creating many classes<br>
+
+            <p>2. Inheritance allows?</p>
+            <input type="radio" name="q2" value="a"> Copying code manually<br>
+            <input type="radio" name="q2" value="b"> One class to use another<br>
+
+            <p>3. Polymorphism means?</p>
+            <input type="radio" name="q3" value="a"> One method, many forms<br>
+            <input type="radio" name="q3" value="b"> Only one function<br>
+
+            <br>
+            <button type="button" onclick="submitQuiz()">Submit Quiz</button>
+        </form>
+
+        <h3 id="score"></h3>
+        <div id="answers"></div>
+
+    </div>
+
+
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 LearnersHub</p>
+</footer>
+
+</body>
+</html>
