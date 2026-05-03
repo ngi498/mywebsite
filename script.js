@@ -1,5 +1,5 @@
 function selectCourse(course) {
-    alert("🚀 Starting " + course);
+    alert("🚀 you have been succesfully enrolled for " + course);
 }
 
 
